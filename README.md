@@ -30,4 +30,4 @@ O objetivo principal deste projeto é identificar e analisar a média de salári
 
 
 ## 🔍Referências
-- [Alura](https://www.alura.com.br/)
+- [EBAC](https://ebaconline.com.br/)
