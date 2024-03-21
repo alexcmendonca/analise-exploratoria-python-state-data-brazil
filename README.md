@@ -15,32 +15,19 @@ completo pode ser acessado neste [link](https://www.stateofdata.com.br/).
 O objetivo principal deste projeto é identificar e analisar a média de salários no mercado de dados, levando em consideração os cargos (Analista, Cientista e Engenheiro de Dados) e seus níveis de experiência. Por meio desta análise, descobrir tendências significativas e insights valiosos que possam auxiliar profissionais, empresas e pesquisadores no entendimento do panorama salarial neste campo em constante evolução.
 
 
-##  🗂️Organização dos Arquivos Databricks e Data Factory
-* Notebooks | Databricks
-    - Transformações nos dados e salvando-os em um arquivo Delta Lake no repositório Azure Data Lake.
+##  🗂️Estrutura de Arquivos no Repositório:
+* Notebooks: 
+    - notebook_analise_exploratoria.ipynb
+        - Que contêm códigos de leitura, limpeza, gráficos e insights relacionados à análise e exploração de dados.
+    
+    - notebook_storytelling.ipynb
+        - Que contêm o storytelling apresentando os dados com uma narrativa contextual
 
-* Factory | Azure Data Factory
-    - Arquivos de configuração carregados no repositório GitHub após conexão Data Factory
+* CSV
+    - State_of_data_2022: dados da pesquisa disponibilizados no site do Kaggle
+    - data.csv: arquivo de checkpoint após execução das operações com os dados de tranformação inicial
+    - data_upd.csv: arquivo resultante após aplicação final das transformações, pronto para ser utilizado na geração de insights."
 
-* Databricks-pcm
-    - Arquivos de configuração da conexão do Databricks ao Data Factory
-
-* Pipeline
-    - Arquivos de configuração do pipeline
-
-* Trigger
-    - Arquivos de configuração do gatilho de execução
-
-## 🎞️Imagens do Projeto
-
-###### Imagem 5: Monitorando execução do pipeline no Data Factory
-<img src="/img/monitorando-execucao-pipeline.png">
-
-###### Imagem 6: Monitorando execução do pipeline no Databricks / Job runs
-<img src="/img/monitorando-execucao-pipeline-databricks.png">
-
-###### Imagem 7: Tela inicial do estúdio Azure Data Factory
-<img src="/img/estudio-azure-data-factory.png">
 
 ## 🔍Referências
 - [Alura](https://www.alura.com.br/)
