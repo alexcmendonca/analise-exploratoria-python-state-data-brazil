@@ -1,0 +1,45 @@
+https://www.linkedin.com/feed/update/urn:li:activity:7174259866071416832/?commentUrn=urn%3Ali%3Acomment%3A(activity%3A7174259866071416832%2C7174457571674603521)&dashCommentUrn=urn%3Ali%3Afsd_comment%3A(7174457571674603521%2Curn%3Ali%3Aactivity%3A7174259866071416832)&origin=COMMENTS_BY_YOUR_NETWORK
+
+Danielle GodoyDanielle Godoy
+• 3º e +• 3º e +
+CX Expert | Marketing & UX Student | Driving Transformative User Experiences 🚀CX Expert | Marketing & UX Student | Driving Transformative User Experiences 🚀
+13 h • 13 h •
+
+Seguir
+
+📊 Recentemente, iniciei minha jornada no mundo dos dados com o curso "Jornada de Dados" pela EBAC - Escola Britânica de Artes Criativas e Tecnologia, ministrado pelo professor André Perez
+
+Na primeira aula:
+- Explorei a ferramenta Google Colab, uma plataforma de notebooks interativos baseada na nuvem.
+- Criei e executei códigos em Python, além de acessar recursos de computação de alto desempenho (CPUs, GPUs e TPUs) sem a necessidade de configurar infraestrutura complexa.
+
+Na segunda aula:
+- Explorei dados com uma pesquisa sobre o mercado brasileiro de dados, State of Data Brazil (2022).
+- Utilizei como base a pesquisa para entender o perfil atual das três principais profissões da área de dados no Brasil: engenheiro de dados, cientista de dados e analista de dados.
+- Importei dados disponíveis no Kaggle em um arquivo CSV para o Google Colab.
+- Extrai informações mais granulares sobre remuneração, especificando as profissões da área de dados.
+- Identifiquei as colunas de interesse: cargo, experiência e salário.
+- Transformei o texto do cabeçalho em uma lista de textos para localizar facilmente os elementos relevantes.
+- Extraí dados sobre a distribuição salarial de diferentes cargos dentro do universo dos dados.
+
+#data #dados #jornadadedados #ebac #colab #kaggle #google #analisededados #dataanalysis #technology #innovation #python
+
+-----------
+
+
+Linhas corrompidas podem derivar de diversos fatores: erros de processamento, erros humanos, etc. Podemos manual ou automaticamente corrigi-las, ou ainda aplicar a técnica de deleção vista anteriormente. Utilizando a última opção.
+salario_ordem = {
+'Menos de R$ 1.000/mês': 0,
+'de R$ 1.001/mês a R$ 2.000/mês': 1,
+'de R$ 2.001/mês a R$ 3.000/mês': 2,
+'de R$ 3.001/mês a R$ 4.000/mês': 3,
+'de R$ 4.001/mês a R$ 6.000/mês': 4,
+'de R$ 6.001/mês a R$ 8.000/mês': 5,
+'de R$ 8.001/mês a R$ 12.000/mês': 6,
+'de R$ 12.001/mês a R$ 16.000/mês': 7,
+'de R$ 16.001/mês a R$ 20.000/mês': 8,
+'de R$ 20.001/mês a R$ 25.000/mês': 9,
+'de R$ 25.001/mês a R$ 30.000/mês': 10,
+'de R$ 30.001/mês a R$ 40.000/mês': 11,
+'Acima de R$ 40.001/mês': 12
+}
